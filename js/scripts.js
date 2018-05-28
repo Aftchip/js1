@@ -13,7 +13,7 @@ let birthday = new Date ('09/29/92');
 const goal = "Expand my Knowledge";
 console.log (name, birthday, goal)
 // console.log (name + age + goal)
-*/
+
 
 // Day 2 practice
 
@@ -25,3 +25,10 @@ const ingredients = ['Shrimp', 'Cucumber', 'Onion', 'Cilantro', 'Lime Juice', 'C
 
 alert(favFood + ingredients);
 confirm(favMovie + year)
+*/
+// Day 2 takehome
+
+var fistName = prompt("What is your first name?");
+console.log (fistName);
+var lastName = prompt("Waht is your last name?");
+alert("Hello there, Mr." + lastName);
