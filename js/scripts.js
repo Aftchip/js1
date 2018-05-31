@@ -23,7 +23,7 @@ switch (favColor.toLowerCase()) {
       alert(yourName + ',' + " " + 'you must be delicate, sweet, nice, playful, cute, romantic, charming, feminine, or just a princess.')
     break;
   case 'purple':
-      alert(yourName + ',' + " " + 'royalty, nobility, luxury, power, and ambition. Suits your well!')
+      alert(yourName + ',' + " " + 'royalty, nobility, luxury, power, and ambition. Suits you well!')
     break;
   case 'black':
       alert(yourName + ',' + " " + 'the mysterious one!')
@@ -36,4 +36,4 @@ switch (favColor.toLowerCase()) {
     break;
   default:
   alert('Either you misspelled the color, or I\'ve never heard of it?')
-}
+};
