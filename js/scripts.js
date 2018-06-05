@@ -14,6 +14,7 @@ function capitalCase(string) { // FUNCTION DEFENITION, No value until you call.
   return words.join(' ');
 };
 
+
 let newString = capitalCase("peter piper"); //function CALL.
 
 console.log(newString);
