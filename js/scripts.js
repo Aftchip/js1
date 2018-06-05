@@ -101,7 +101,7 @@
 // console.log(me, "this is the result of the splice");
 
 
-// const products = [["blanket", [12.99, 10.99], "the best blanket ever"], ['rattle', 4.99, "it rattles man..."], ['diapers', 12.99, "they catch the doo doo"]];
+// let products = [["blanket", [12.99, 10.99], "the best blanket ever"], ['rattle', 4.99, "it rattles man..."], ['diapers', 12.99, "they catch the doo doo"]];
 // alert(products[0][1][1]);
 
 
@@ -115,22 +115,51 @@
 
 
 
-let favMovie = ['MIB', "J"];
-let secondFav = ['John Wick', "John"];
-let thirdFav = ['The good, the bad and the ugly', "Blondie"];
-let fourthFav = ['Pulp Fiction', "Vincent and Jules"];
-let fifthFav = ['Dragon', "Liu"];
-
-let favoriteMovies = [];
-favoriteMovies.push(favMovie, secondFav, thirdFav);
-
-let titles = [];
-titles.push(favoriteMovies[0][0], favoriteMovies[1][0], );
-
-
+// let favMovie = ['MIB', "J"];
+// let secondFav = ['John Wick', "John"];
+// let thirdFav = ['The good, the bad and the ugly', "Blondie"];
+// let fourthFav = ['Pulp Fiction', "Vincent and Jules"];
+// let fifthFav = ['Dragon', "Liu"];
+//
+// let favoriteMovies = [];
+// favoriteMovies.push(favMovie, secondFav, thirdFav, fourthFav, fifthFav);
+//
+// let titles = [];
+// titles.push(favoriteMovies[0][0], favoriteMovies[1][0], );
 
 
+// LOOPS
+let products = [["blanket", [12.99, 10.99], "the best blanket ever"], ['rattle', 4.99, "it rattles man..."], ['diapers', 12.99, "they catch the doo doo"]];
 
+// let i = 0; //control statement
+
+//while loop
+// while (i < products.length) { //parmeters
+  // console.log(products[i]);
+  // i++; //incrementor
+// }
+
+//for loop
+// for (let i = products.lenght -1; i >= 0; i--) {
+//   console.log(products[i])
+// }
+
+// do while loop
+// let i = 0;
+// let newProduct = ["queeky toy", 19.99, "really good"];
+// do {
+// //add newProduct to the second number of products
+//   if(i === 1) products[i].push(newProduct);
+//   i++;
+// } while (i < products.lenght);
+// console.log(products);
+
+// // for each LOOPS
+// products.foreach((product) => {
+//   console.log(product)
+// })
+//
+//
 
 
 //
