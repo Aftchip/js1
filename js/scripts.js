@@ -115,11 +115,11 @@
 
 
 
-let favMovie = ['MIB', "j"];
+let favMovie = ['MIB', "J"];
 let secondFav = ['John Wick', "John"];
-let thirdFav = [];
-let fourthFav = [];
-let fifthFav = [];
+let thirdFav = ['The good, the bad and the ugly', "Blondie"];
+let fourthFav = ['Pulp Fiction', "Vincent and Jules"];
+let fifthFav = ['Dragon', "Liu"];
 
 let favoriteMovies = [];
 favoriteMovies.push(favMovie, secondFav, thirdFav);
